@@ -15,5 +15,5 @@ npm install
 ## 3. Start the app
 
 ```bash
-npx run dev
+npm run dev
 ```
