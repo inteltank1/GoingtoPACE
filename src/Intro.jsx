@@ -1,10 +1,10 @@
-import anim from "./assets/PACE_BeautyPass__camera02_YT1080.gif";
+import vid from "./assets/pacesat.mp4";
 
 function Animation() {
   return (
     <>
       <div className="container">
-        <img id="HiHello" src={anim}></img>
+        <video id="HiHello" src={vid} autoPlay={true} loop muted controls="" />
         <div className="centered">
           <b>PACE</b>
         </div>
