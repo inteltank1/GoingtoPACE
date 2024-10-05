@@ -20,3 +20,29 @@ body {
     font-size: 350px;
     text-align: center;
 }
+
+#PACE_Img1 {
+    width: 50%;
+    margin: 0;
+    border-bottom-right-radius: 500px;
+}
+
+#BackgroundDiv {
+    margin: 0;
+    background-image: url("./assets/pattern-4.avif");
+    background-size: 380px;
+    position: absolute;
+}
+
+#textNextToScreen {
+    float: right;
+    color: black;
+    margin-top: 1%;
+    font-size: 150px;
+    text-shadow:
+        -3px -3px 0 #176,
+        3px -3px 0 #176,
+        -3px 3px 0 #176,
+        3px 3px 0 #176;
+    margin-right: 2%;
+}

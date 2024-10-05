@@ -9,6 +9,7 @@ function Animation() {
           <b>PACE</b>
         </div>
       </div>
+      <button href="./interactivemap/index.jsx">dsadsad</button>
     </>
   );
 }
