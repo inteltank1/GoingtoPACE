@@ -39,7 +39,7 @@ body {
     background-image: url("./assets/bg.png");
     background-size: 380px;
     width: 100%;
-    height:1400px;
+    height:1300px;
 }
 
 #textNextToScreen {
@@ -99,14 +99,6 @@ body {
 }
 
 
-
- 
-
-    
-    
-    
-
-
 .margin {
     margin: 0;
 }
@@ -121,7 +113,7 @@ body {
     color: white;
     font-family: "Protest Strike";
     margin-bottom: 0;
-    margin-top: 0;
+    margin: 0;
 }
 
 #StyledHR {
@@ -135,6 +127,7 @@ body {
     font-size: 75px;
     color: white;
     font-family: "Lilita One";
+  
 }
 
 #mark {
@@ -144,7 +137,7 @@ body {
 #theDIV {
     background-image: url(assets/bg2.png);
     background-size: 175px;
-    height: 100%;
+    height: 3250px;
     width: 100%;
     margin: 0;
 }
@@ -168,9 +161,10 @@ body {
 
 .left2 {
     float: right;
-    margin-left: 60%;
+   
     position: absolute;
     height: 350px;
+    
 }
 
 .right2 {
@@ -222,10 +216,139 @@ body {
     margin-top: 4%; /* Margin */
     border-radius: 25px; /* Border radius */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
+    margin-top: 8%;
 }
 
 #FlatMap:hover {
     transform: scale(1.05); /* Scale up by 5% on hover */
     box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); /* Yellow shadow effect */
 
+}
+
+
+ /* PACE SECTION LINK */ 
+.IzqPar {
+    float: left; 
+    margin-left: 2%;
+    width: 50%;
+    
+}
+.IzqImg {
+    float: right;
+    margin-right:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 10%;
+    
+}   
+
+.IzqPar2 {
+    float: left; 
+    margin-left: 2%;
+    width: 50%;
+    
+}
+.IzqImg2 {
+    float: right;
+    margin-right:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 10%;
+    clear:both;
+    margin-top:2%;
+}   
+.IzqPar3 {
+    float: left; 
+    margin-left: 2%;
+    width: 50%;
+    
+}
+.IzqImg3 {
+    float: right;
+    margin-right:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 10%;
+    clear:both;
+    margin-top:2%;
+} 
+
+.IzqPar4 {
+    float: left; 
+    margin-left: 2%;
+    width: 50%;
+    margin-top: 13%;
+    
+}
+.IzqImg4 {
+    float: right;
+    margin-right:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 10%;
+    clear:both;
+    margin-top:2%;
+} 
+
+
+.elephant {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center; 
+    clear:both;
+}
+
+
+
+
+
+.DerPar {
+    float: right; 
+    margin-right:2%;
+    width: 50%;
+    margin-top:4%;
+
+}
+.DerImg {
+    float: left;
+    margin-left:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 3%;
+    clear:both;
+    margin-top:1%;
+    
+}
+
+.DerPar2{
+    float: right; 
+    margin-right:2%;
+    width: 50%;
+    margin-top:3%;
+
+}
+.DerImg2 {
+    float: left;
+    margin-left:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 3%;
+    clear:both;
+    
+}
+.DerPar3 {
+    float: right; 
+    margin-right:2%;
+    width: 50%;
+    margin-top:3%;
+
+}
+.DerImg3 {
+    float: left;
+    margin-left:2%; 
+    width:30%; 
+    height: auto;
+    margin-left: 3%;
+    clear:both;
+    
 }
