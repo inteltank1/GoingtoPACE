@@ -6,12 +6,15 @@ import {
   TileLayer,
   useMap,
   Rectangle,
+  ImageOverlay,
 } from "react-leaflet";
 import "./map.css";
+import pacesat from "../../apistuff/apiimages/latest.png";
+import earthimg from "../assets/Earth.jpg";
 
-const rectangle = [
-  [36.699002, -4.439182],
-  [36.700002, -4.509182],
+const rectangledimensions = [
+  [80, -180],
+  [-80, 180],
 ];
 
 function Interactivemap() {
@@ -28,7 +31,16 @@ function Interactivemap() {
       <Marker position={[36.699002, -4.439182]}>
         <Popup>POLO</Popup>
       </Marker>
-      <Rectangle bounds={rectangle} />
+      <ImageOverlay
+        url={earthimg}
+        bounds={rectangledimensions}
+        opacity={1} // Optional: set the opacity of the image
+      />
+      <ImageOverlay
+        url={pacesat}
+        bounds={rectangledimensions}
+        opacity={1} // Optional: set the opacity of the image
+      />
     </MapContainer>
   );
 }
