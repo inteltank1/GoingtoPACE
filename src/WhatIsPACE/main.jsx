@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Interactivemap from "./interactivemap.jsx";
+import WhatIsPACE from "./WhatIsPACE.jsx";
+import "../index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Interactivemap />
+    <WhatIsPACE />
   </StrictMode>,
 );

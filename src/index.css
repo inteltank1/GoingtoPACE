@@ -10,6 +10,7 @@ body {
 .container {
     position: relative;
     text-align: center;
+    margin: 0;
 }
 
 .centered {
@@ -19,6 +20,7 @@ body {
     color: white;
     font-size: 350px;
     text-align: center;
+    margin: 0;
 }
 
 #PACE_Img1 {
@@ -29,14 +31,26 @@ body {
 
 #BackgroundDiv {
     margin: 0;
-    background-image: url("./assets/pattern-4.avif");
+    background-image: url("./assets/bg.png");
     background-size: 380px;
-    position: absolute;
+    width: 100%;
 }
 
 #textNextToScreen {
+    color: white;
+    margin-top: 0%;
+    font-size: 150px;
+    text-shadow:
+        -3px -3px 0 #176,
+        3px -3px 0 #176,
+        -3px 3px 0 #176,
+        3px 3px 0 #176;
+    margin-right: 7%;
     float: right;
-    color: black;
+}
+
+#textNextToScreen2 {
+    color: white;
     margin-top: 1%;
     font-size: 150px;
     text-shadow:
@@ -44,5 +58,109 @@ body {
         3px -3px 0 #176,
         -3px 3px 0 #176,
         3px 3px 0 #176;
-    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#textNextToScreen3 {
+    color: white;
+    margin-top: 1%;
+    font-size: 150px;
+    text-shadow:
+        -3px -3px 0 #176,
+        3px -3px 0 #176,
+        -3px 3px 0 #176,
+        3px 3px 0 #176;
+    margin-left: 2%;
+    float: right;
+}
+
+#PACE_Img2 {
+    width: 50%;
+    margin: 0;
+    float: right;
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
+}
+
+#PACE_Img3 {
+    width: 50%;
+    margin: 0;
+    border-top-right-radius: 500px;
+}
+
+.margin {
+    margin: 0;
+}
+
+#pText1 {
+    float: right;
+}
+
+#bigH1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: "Protest Strike";
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#StyledHR {
+    width: 35%;
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#big {
+    font-size: 75px;
+    color: white;
+    font-family: "Lilita One";
+}
+
+#mark {
+    background: lightgreen;
+}
+
+#theDIV {
+    background-image: url(assets/bg2.png);
+    background-size: 175px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.literal_yapping {
+    color: white;
+    font-size: 40px;
+    font-family: "Balsamiq Sans";
+}
+
+.left {
+    text-align: left;
+    width: 50%;
+}
+
+.right {
+    text-align: right;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.left2 {
+    float: right;
+    margin-left: 60%;
+    position: absolute;
+    height: 350px;
+}
+
+.right2 {
+    float: left;
+    margin: 0;
+    position: absolute;
+    height: 250px;
+}
+
+#particPhoto {
+    height: 300px;
 }

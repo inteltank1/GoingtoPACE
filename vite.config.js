@@ -8,8 +8,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        interactivemap: resolve(__dirname, "./interactivemap/index.html"),
-        contact: resolve(__dirname, "contact.html"),
+        map: resolve(__dirname, "map.html"),
+        whatispace: resolve(__dirname, "WhatIsPACE.html"),
       },
     },
   },
