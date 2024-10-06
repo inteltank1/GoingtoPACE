@@ -71,7 +71,7 @@ body {
     float: left;
    margin-right:0px; 
    margin-left:3%;
-   
+   width:700px;
      padding:0px 0px;
      text-align: center;
      
@@ -98,19 +98,14 @@ body {
     clear: right;
 }
 
-#PACE_Img3 {
-    width: 50%;
-    margin: 0;
-    border-top-right-radius: 500px;
-    clear:left;
-    float:left;
+
 
  
 
     
     
     
-}
+
 
 .margin {
     margin: 0;
@@ -218,9 +213,19 @@ body {
     text-decoration: underline; /* No underline */
   }
 
+ 
   #FlatMap {
-    width: 30%;
-    height: auto;
-    float:left;
-    clear: both;
-  }
+    width: 90%; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* Align left */
+    clear: both; /* Clear floats */
+    margin-top: 4%; /* Margin */
+    border-radius: 25px; /* Border radius */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+#FlatMap:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); /* Yellow shadow effect */
+
+}

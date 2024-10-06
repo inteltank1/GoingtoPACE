@@ -17,8 +17,9 @@ function Pantalla() {
         <img src={image2} id="PACE_Img2"></img>
         <h1 id="textNextToScreen2">
          Look at the Plankton Map!
-         <img src={image4} id="FlatMap"></img>          
+        <a href="map.html"><img src={image4} id="FlatMap"></img> </a>          
         </h1>
+
 
         <br></br>
       </div>
