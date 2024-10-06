@@ -9,13 +9,16 @@ function Pantalla() {
         <img src={image} id="PACE_Img1"></img>
         <h1 id="textNextToScreen">
           What is PACE?<br></br>
-          <p>
+          <p className="littleText">
             Find out <a href="../WhatIsPACE">HERE</a>
           </p>
         </h1>
         <img src={image2} id="PACE_Img2"></img>
-        <h1 id="textNextToScreen2">What are its parts?</h1>
-        <br></br>
+        <h1 id="textNextToScreen2">
+          What are its parts?
+          <p className="littleText">Hola</p>
+        </h1>
+
         <img src={image3} id="PACE_Img3"></img>
         <h1 id="textNextToScreen3">Last but not least...</h1>
         <br></br>

@@ -38,7 +38,7 @@ body {
 
 #textNextToScreen {
     color: white;
-    margin-top: 0%;
+    margin-top: 5%;
     font-size: 150px;
     text-shadow:
         -3px -3px 0 #176,
@@ -47,11 +47,12 @@ body {
         3px 3px 0 #176;
     margin-right: 7%;
     float: right;
+    margin-top: 0%;
 }
 
 #textNextToScreen2 {
     color: white;
-    margin-top: 1%;
+    margin-top: 5%;
     font-size: 150px;
     text-shadow:
         -3px -3px 0 #176,
@@ -63,14 +64,13 @@ body {
 
 #textNextToScreen3 {
     color: white;
-    margin-top: 1%;
     font-size: 150px;
     text-shadow:
         -3px -3px 0 #176,
         3px -3px 0 #176,
         -3px 3px 0 #176,
         3px 3px 0 #176;
-    margin-left: 2%;
+    margin-right: 3%;
     float: right;
 }
 
@@ -163,4 +163,10 @@ body {
 
 #particPhoto {
     height: 300px;
+}
+
+.littleText {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20%;
 }
